@@ -1,6 +1,3 @@
-﻿// Clipboard_Verifier.cpp : Defines the entry point for the console application.
-//
-
 #include <string>
 #include <Windows.h>
 #include <tchar.h>
