@@ -13,7 +13,7 @@ std::wstring GetClipboardText()
 		return _TEXT("error");
 
 			// Get handle of clipboard object for ANSI text
-		HANDLE hData = GetClipboardData(CF_UNICODETEXT);
+		HANDLE hData = GetClipboardData(CF_UNICODETEXT); // Change CF_UNICODETEXT to CF_TEXT if you are using for ANSI text
 	if (hData == nullptr)
 		return _TEXT("error");
 
